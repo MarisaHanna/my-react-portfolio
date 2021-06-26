@@ -7,8 +7,8 @@ import Resume from '../Resume/Resume'
 import Contact from '../Contact/Contact'
 
 
-export default function Wrapper() {
-    return (
+const PageRoutes = () => (
+    
          <Switch>
             <Route exact path="/" component={LandingPage} />
             <Route exact path="/projects" component={MyProjects} />
@@ -16,4 +16,6 @@ export default function Wrapper() {
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/contact" component={Contact} />
          </Switch>
-    )}
+    )
+
+    export default PageRoutes;

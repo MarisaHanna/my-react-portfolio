@@ -1,4 +1,5 @@
 
+import Footer from './components/Footer/Footer';
 import './App.css';
 import Navbar from './components/Header/Navbar';
 
@@ -6,11 +7,12 @@ import Navbar from './components/Header/Navbar';
 
 function App() {
   return (
-   
-     
-      <Navbar/>
-     
- 
+  <div>
+    <Navbar/>
+      <div>
+       <Footer/>
+    </div>
+  </div>
   );
 }
 

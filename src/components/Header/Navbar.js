@@ -8,12 +8,12 @@ export default function Navbar() {
     return (
         <div className="demo-big-content">
         <Layout>
-            <Header title="Title" scroll>
+            <Header className= 'header' title="Title" scroll>
                 <Navigation>
                     <Link to="/projects">Projects</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/resume">Resume</Link>
-                    <Link to="/contact">Contact</Link>
+                    <a href="https://www.linkedin.com/in/marisa-hanna-7a816099/">Contact</a>
                 </Navigation>
             </Header>
             <Drawer title="Title">
@@ -21,7 +21,7 @@ export default function Navbar() {
                     <Link to="/projects">Projects</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/resume">Resume</Link>
-                    <Link to="/contact">Contact</Link>
+                    <a href="https://www.linkedin.com/in/marisa-hanna-7a816099/">Contact</a>
                 </Navigation>
             </Drawer>
             <Content>
