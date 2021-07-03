@@ -4,7 +4,7 @@ import "./style.css";
 export default function Footer() {
     return (
         <footer className="footer">
-      <span>Wikipedia Searcher</span>
+      <p>© 2021. All Rights Reserved.</p>
     </footer>
   );
     

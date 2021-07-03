@@ -12,7 +12,7 @@ export default function MyProjects() {
     return (
         <div className= 'projects'>
             <div>
-           <Card className= 'card'>
+           <Card className= 'project-card'>
              <CardBody>
                  <CardTitle tag="h5">Group Project 1</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">API Fetch Method</CardSubtitle>
@@ -36,7 +36,7 @@ export default function MyProjects() {
                          <img className='images' src={project2} alt="Card image cap" />
                       <CardBody>
                      <CardText>
-                     This application uses the MVC model and get requests to dynamically render content stored in a mySQL database.
+                     This application uses the MVC model and get requests to dynamically render content stored in a MySQL database.
                      </CardText>
                     <CardLink href='https://github.com/MarisaHanna/Paws-and-Claws'>GitHub</CardLink>
                     <CardLink href='https://pawsandclawss.herokuapp.com/'>Deployed Link</CardLink>
@@ -95,7 +95,7 @@ export default function MyProjects() {
             <Card >
              <CardBody>
                  <CardTitle tag="h5">MCV Tech Blog</CardTitle>
-                    <CardSubtitle tag="h6" className="mb-2 text-muted">Authentication and Persistent Storage with mySQL </CardSubtitle>
+                    <CardSubtitle tag="h6" className="mb-2 text-muted">Authentication and Persistent Storage with MySQL </CardSubtitle>
                      </CardBody>
                          <img className='images' src={techblog} alt="Card image cap" />
                       <CardBody>

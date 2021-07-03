@@ -18,7 +18,7 @@ export default function Navbar() {
                     <a href="https://www.linkedin.com/in/marisa-hanna-7a816099/">Contact</a>
                 </Navigation>
             </Header>
-            <Drawer title="Title">
+            <Drawer title="Marisa Hanna React Portfolio">
                 <Navigation>
                     <Link to="/">Profile</Link>
                     <Link to="/projects">Projects</Link>

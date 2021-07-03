@@ -27,6 +27,10 @@
 
 .banner h1 {
     font-size: 25px;
-}    
+} 
+
+.banner {
+    margin-top: 10%;
+}
 }
     

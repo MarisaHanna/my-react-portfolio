@@ -4,13 +4,12 @@
     margin-left: 3%;
 }
 
-/* .projects {
-    display: flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
-
 
 .card {
-    margin-top: 10%;
-    
+    margin-top: 5%;
+}
+
+
+.project-grid {
+    background: rgb(240, 240, 240);
 }
