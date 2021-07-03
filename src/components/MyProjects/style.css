@@ -1,0 +1,16 @@
+.images {
+    width: 50%;
+    height: 50%;
+    margin-left: 3%;
+}
+
+/* .projects {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+
+
+.card {
+    margin-top: 10%;
+    margin-left: 2%;
+}

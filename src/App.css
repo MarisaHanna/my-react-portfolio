@@ -1,14 +1,15 @@
-.header, .landing-grid{
-  background: #FEAC5E;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.header, .profile-page{
+  background: #77A1D3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.avatar {
-  height: 250px;
-  padding-top: 5rem;
+.profile-page{
+  height: 100vh;
 }
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
