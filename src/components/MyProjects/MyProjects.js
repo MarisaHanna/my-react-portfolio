@@ -10,8 +10,8 @@ import techblog from '../../images/techblog.png'
 
 export default function MyProjects() {
     return (
-        <div className= 'projects'>
-            <div>
+    <div className= 'projects'>
+         <div>
            <Card className= 'project-card'>
              <CardBody>
                  <CardTitle tag="h5">Group Project 1</CardTitle>
@@ -20,7 +20,7 @@ export default function MyProjects() {
                          <img className='images' src={project1} alt="Card image cap" />
                       <CardBody>
                      <CardText>
-                     This application uses the API fetch method to retrieve specific recipes requsted from the user.
+                     This application was the first of the three collaborative projects that are required for graduation.   Each step was a learning experience. We navigated through working with different personalities, creating individual repository branches, pushing to the main branch, merge conflicts, and final presentation. Our team decided to create an application that provided the user with ability to search for food and adult beverage recipes containing a specific ingredient. The application uses the fetch method to retrieve data from the API source, and appends the response to the user’s page for viewing. Languages used in this application are HTML, CSS, JavaScript, and Tailwind CSS.
                      </CardText>
                     <CardLink href='https://github.com/MarisaHanna/lets-eat'>GitHub</CardLink>
                     <CardLink href='https://marisahanna.github.io/lets-eat/'>Deployed Link</CardLink>
@@ -36,7 +36,7 @@ export default function MyProjects() {
                          <img className='images' src={project2} alt="Card image cap" />
                       <CardBody>
                      <CardText>
-                     This application uses the MVC model and get requests to dynamically render content stored in a MySQL database.
+                     This application uses the MVC model and get requests to dynamically render content stored in a MySQL database. The purpose of this app is to have the user search through the database for a new pet to adopt. The users will be able to search the webpage to find pets that fit the users and their family. If someone wants to browse available pets in the area, they can go straight to the "Dogs" "Cats" or "Exotics" link from the home page as long as they are loggin in first.
                      </CardText>
                     <CardLink href='https://github.com/MarisaHanna/Paws-and-Claws'>GitHub</CardLink>
                     <CardLink href='https://pawsandclawss.herokuapp.com/'>Deployed Link</CardLink>
@@ -106,7 +106,7 @@ export default function MyProjects() {
                     <CardLink href='https://log-my-blog.herokuapp.com/'>Deployed Link</CardLink>
                 </CardBody>
             </Card>
-            </div>
-        </div>
+         </div>
+    </div>
     )
 }

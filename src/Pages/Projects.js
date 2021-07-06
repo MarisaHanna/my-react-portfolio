@@ -1,21 +1,23 @@
 import React from 'react'
 import { Grid, Cell} from 'react-mdl'
-import Navbar from '../components/Header/Navbar'
+import Footer from '../components/Footer/Footer'
 import MyProjects  from '../components/MyProjects/MyProjects'
+
 
 
 export default function Projects() {
     return (
         <div>
-           <div style={{width: '100%', margin: 'auto'}}>
+          <div style={{width: '100%', margin: 'auto'}}>
             <Grid className='project-grid'>
                  <Cell col={12}>
-                 <MyProjects/>
+                 {/* <ProjectBanner/> */}
+                  <MyProjects/>
                      
                </Cell>     
             </Grid>
          </div>
-          
-        </div>
+         <Footer/>
+    </div>
     )
 }

@@ -8,6 +8,60 @@
   height: 100vh;
 }
 
+.contact {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 2em;
+  justify-content: center;
+  margin: auto;
+ 
+} 
+
+.contact-body {
+  margin-top:  10%;
+  margin-bottom: 20px;
+}
+
+.contact-grid {
+ 
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: rgb(255, 255, 255);
+ 
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+
+
+.contact-grid p {
+  width: 75%;
+  margin: auto;
+  padding-top: 1em;
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.p-2 {
+  margin-bottom: 10%;
+}
+
+
+.profile-img {
+  height: 250px;
+   margin-top: 5%;
+}
+
+.contact-list {
+  margin-top: 7%;
+  font-size: 25px;
+}
+
+
+
 
 
 @keyframes App-logo-spin {

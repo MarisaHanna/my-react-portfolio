@@ -12,8 +12,7 @@ export default function Landingpage() {
                  <Cell col={12}>
                     <ProfilePic/>
                     <Banner/>
-                     
-               </Cell>     
+                 </Cell>     
             </Grid>
          </div>
        </div> 
