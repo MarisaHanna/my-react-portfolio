@@ -1,7 +1,7 @@
 import React from 'react'
 import {  Layout, Header, Drawer, Content, Navigation } from 'react-mdl'
 import { Link } from 'react-router-dom'
-import Resume from '../../images/ResumeReact.pdf'
+import Resume from '../../images/postgrad.pdf'
 
 
 
