@@ -11,7 +11,7 @@ export default function AboutMe() {
                   <h2>Marisa Hanna</h2>
                   <img className='profile-img' src={Profile} alt='profile pic'/>
                   <div className= 'p-1'>
-                      <p>Hi there! I'm Marisa. I am currently enrolled as a Software Engineering student at University of Washington. I am passionate about learning, and I'm so excited for all the new opportunities my developing skill set will bring. I'm currently working with programming languages such as HTML5, CSS, JavaScript, and Node.js., and React. However, there's more to come. So stay tuned!</p> 
+                      <p>Hi there! I'm Marisa. I am a recent graduate in Software Engineering from University of Washington. I am passionate about learning, and I'm so excited for all the new opportunities my developing skill set will bring. I'm currently working with programming languages such as HTML5, CSS, JavaScript, and Node.js., and React. However, there's more to come. So stay tuned!</p> 
                   </div>
               </Cell>
               <Cell col={6}>
